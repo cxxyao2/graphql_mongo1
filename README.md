@@ -90,3 +90,11 @@ mutation {
 | each entity includes multiply objects | from one object          |
 | get exactly what you need             | get a complete data set  |
 | operate over a single(root) endpoint  | x endpoint: x data       |
+
+> Example: using RESTful API, we get different data through
+> different endpoints, e.g. <https://some.com/api/books/1>, {method: get} ;
+> <https://some.com/api/clients/2>, {method: delete} By contrast, using GraphQL, we get books and clients through one endpoint by only changing query and arguments.
+
+- ![js defer](assets/onepoint_1.png)
+- ![graphQL query no argument](assets/onepoint_2_no_arg.png)
+- ![graphQL query argument](assets/onepoint_2_with_arg_1.png)
