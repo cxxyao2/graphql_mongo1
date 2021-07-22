@@ -78,15 +78,15 @@ mutation {
 }
 
 ```
-# GraphQL API vs  RESTful API
-|             GraphQL   API        |        RESTful  API        |
-| -------------------------------  | ---------------------------|
-| a query language                 | an architectural concept   |
-| a specification                  | 
-| 
-| opertaor over a single endpoint
-| use HTTP
-| performance and flexibility      | simplicity
-| each entity: from multiply objects
-down to specific fileds,
-| get exactly what you need        | get a complete data set    |
+
+# GraphQL API vs RESTful API
+
+| GraphQL API                           | RESTful API              |
+| ------------------------------------- | ------------------------ |
+| a query language                      | an architectural concept |
+| a specification                       | an industry standard     |
+| limited tools                         | mature , many tools      |
+| performance and flexibility           | simplicity               |
+| each entity includes multiply objects | from one object          |
+| get exactly what you need             | get a complete data set  |
+| operate over a single(root) endpoint  | x endpoint: x data       |
