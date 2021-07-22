@@ -1,6 +1,6 @@
 # GraphQL Turorial
 
-> ![graphQL](https://unsplash.com/photos/0DJHJcpwN9Q)
+> ![graphQL](assets/graphQL.png)
 
 # Install Pacakges
 
@@ -66,7 +66,7 @@ query{
 
 ```
 
-# mutation( add, delete, update)
+# Mutation( add, delete, update)
 
 case1: add
 
