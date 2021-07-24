@@ -3,9 +3,7 @@ const Schema = mongoose.Schema;
 
 const authorSchema = new Schema({
   name: String,
-  price: Number,
-  books: String,
+  age: Number,
 });
 
-const Author = mongoose.model('Author', authorSchema);
-exports.Author = Author;
+module.exports = mongoose.model('Author', authorSchema);

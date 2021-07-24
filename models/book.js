@@ -3,9 +3,8 @@ const Schema = mongoose.Schema;
 
 const bookSchema = new Schema({
   name: String,
-  price: Number,
+  genre: String,
   authorId: String,
 });
 
-const Book = mongoose.model('Book', bookSchema);
-exports.Book = Book;
+module.exports = mongoose.model('Book', bookSchema);
