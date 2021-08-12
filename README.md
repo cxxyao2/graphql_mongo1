@@ -3,3 +3,4 @@
 - MongoDB to store data
 - ![graphQL](assets/graphQL.png)
 - ![graphQL](assets/result1.png)
+- ![graphQL](assets/query.png)
