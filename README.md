@@ -2,5 +2,7 @@
 - React front-end (with Apollo)
 - MongoDB to store data
 - ![graphQL](assets/graphQL.png)
+- mutation (change data ) 
 - ![graphQL](assets/result1.png)
+- query ( = select data from one or multiple tables)
 - ![graphQL](assets/query.png)
