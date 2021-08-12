@@ -3,6 +3,8 @@
 - MongoDB to store data
 - ![graphQL](assets/graphQL.png)
 - mutation (change data ) 
-- ![graphQL](assets/result1.png)
+- ![graphQL](assets/mutation.png)
 - query ( = select data from one or multiple tables)
 - ![graphQL](assets/query.png)
+- query with parameters
+- ![query](assets/query_with_para.png)
